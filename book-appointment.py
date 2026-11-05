@@ -6,7 +6,7 @@ def validate_appointment(slot, userid):
     if userid <= 0:
         return False
 
-    return False
+    return userid < slot
 
 
 # Test cases
